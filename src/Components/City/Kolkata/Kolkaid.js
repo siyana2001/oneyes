@@ -60,7 +60,7 @@ export const Kolkaid = () => {
                             <Link to="/kolka" className="btn btn-primary text-light" style={{ width: 'fit-content' }}>
                                &lt;- Back
                              </Link>
-                             <Link to="/" className="btn btn-primary text-light" style={{ width: 'fit-content' }}>
+                             <Link to="/register" className="btn btn-primary text-light" style={{ width: 'fit-content' }}>
                              Apply This
                              </Link>
 

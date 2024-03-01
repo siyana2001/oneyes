@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios";
 import { Link } from 'react-router-dom';
 import google from "../Login/download.png"
+import intern from '../Login/internshala.png'
 
 export function Login() {
     function handlelogin(event){
@@ -46,8 +47,13 @@ export function Login() {
         <div className="background-container">
             <div className="login-form-container">
                 <form onSubmit={handlelogin} className="login-form">
-                    <h1>Hello <span role="img" aria-label="Wave">&#x1F44B;&#128519;</span></h1>
-                    <p>We are happy to have you here <span role="img" aria-label="Heart">&#x1F495;</span></p>
+                <div className="text-center">
+                <img src={intern} alt="Intern" style={{ width: '250px', height:"150px", display: 'block', margin: 'auto' }} />
+            </div>
+                    {/* <h1>Hello!! <span role="img" aria-label="Wave">&#x1F44B;&#128519;</span></h1> */}
+                    <div className="text-center mb-3">
+                    <p>Internshala are happy to have you here <span role="img" aria-label="Heart">&#x1F495;</span></p>
+                    </div>
                     <input type="text" id="email" className="form-control mb-3" placeholder="Email address" />
                     <input type="password" id="password" className="form-control mb-3" placeholder="Password" />
                     <div className="mb-3 form-check">

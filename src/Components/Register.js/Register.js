@@ -2,6 +2,8 @@ import axios from "axios";
 import React from "react";
 import './Register.css'; 
 import 'bootstrap/dist/css/bootstrap.min.css'; 
+import intern from '../../Login/internshala.png'
+
 
  export function Register() {
 
@@ -83,6 +85,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
     }
   return (
   <>
+   <div className="text-center">
+        <img src={intern} alt="Intern" style={{ width: '250px', height: '150px', display: 'block', margin: 'auto' }} />
+      </div>
  <h2 className="text-center text-dark mb-4">Apply here your personal details</h2>
 <div className="container mt-1">
     <div className="row justify-content-center">

@@ -1,7 +1,9 @@
 import axios from "axios";
 import React from "react";
 import './Enroll.css'; 
-import 'bootstrap/dist/css/bootstrap.min.css'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import intern from '../../Login/internshala.png'
+
 
 
 export function Enroll() {
@@ -81,6 +83,9 @@ export function Enroll() {
     
   return (
     <>
+    <div className="text-center">
+        <img src={intern} alt="Intern" style={{ width: '250px', height: '150px', display: 'block', margin: 'auto' }} />
+      </div>
 <h2 className="text-center text-dark mb-4">Register here to enroll in our course</h2>
 <div className="container mt-1">
     <div className="row justify-content-center">

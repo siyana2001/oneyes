@@ -448,7 +448,7 @@ export const Main = () => {
 
 <footer id="foo" className="container-fluid">
   <div className="foocon">
-    <div className="foocol">
+    <div className="foocol col-12 col-md-3">
       <div className="foolist">
         <h5>Internships by places</h5>
         <div className="listitm"><a href="">Internship in India</a></div>
@@ -456,13 +456,13 @@ export const Main = () => {
         <div className="listitm"><a href="">Internship in Bangalore</a></div>
         <div className="listitm"><a href="">Internship in Hyderabad</a></div>
         <div className="listitm"><a href="">Internship in Mumbai</a></div>
-        <div className="listitm"><a href="">Internship in Chennai</a></div>
+        <div className="listitm"><a href=""> Internship in Chennai</a></div>
         <div className="listitm"><a href="">Internship in Gurgaon</a></div>
         <div className="listitm"><a href="">Internship in Kolkata</a></div>
         <div className="listitm"><a href="">Virtual Internship</a></div>
       </div>
     </div>
-    <div className="foocol">
+    <div className="foocol col-12 col-md-3">
       <div className="foolist">
         <h5>Internship by Stream</h5>
         <div className="listitm"><a href="">Computer Science Internship</a></div>
@@ -476,7 +476,7 @@ export const Main = () => {
         <div className="listitm"><a href="">Campus Ambassador Program</a></div>
       </div>
     </div>
-    <div className="foocol">
+    <div className="foocol col-12 col-md-3">
       <div className="foolist">
         <h5>Online Trainings <span>CONTEST</span></h5>
         <div className="listitm"><a href="">Programming with Python</a></div>
@@ -489,7 +489,7 @@ export const Main = () => {
         <div className="listitm"><a href="">Creative Writing</a></div>
       </div>
     </div>
-    <div className="foocol">
+    <div className="foocol col-12 col-md-3">
       <div className="foolist">
         <h5>About Internshala</h5>
         <div className="listitm"><a href="">About us</a></div>
@@ -517,16 +517,16 @@ export const Main = () => {
       <a href="https://www.youtube.com/@InternshalaOfficia"><img className="socimg" src={youtube} alt="" /></a>
       <a href="https://in.linkedin.com/company/internshala"><img className="socimg" src={linkedin} alt="" /></a>
     </div>
-    
   </div>
-  <div>
+  <div className="text-center">
     <br />
     <br />
-    {/* <div id="me">Made by <a href="https://github.com/code-reaper08">Hajralsiyana29</a></div> */}
+    <div id="me">Made by <a href="https://github.com/siyana2001">Hajralsiyana29</a></div>
     <br />
     <br />
   </div>
 </footer>
+
   </>
   )
 }

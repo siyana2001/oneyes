@@ -56,7 +56,7 @@ export const Coursecard = () => {
         <>
             <section id="c">
     <Slider {...settings}>
-        {data.slice(0, 7).map((value, index) => (
+        {data.slice(0, 8).map((value, index) => (
             <div key={index} style={{ margin: '10px' }}>
                 <div style={{ width: '100%', borderRadius: '10px', textAlign: 'center' }}>
                     <Card style={{ height: '100%', width: '100%', position: 'relative' }}>

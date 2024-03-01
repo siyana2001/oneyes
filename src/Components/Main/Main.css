@@ -392,3 +392,64 @@ body > nav {
     width: fit-content;
     margin-left: 652px;
 }
+@media only screen and (max-width: 1024px) {
+    .foocon {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .foocol {
+      width: 45%; /* Adjust this value as needed */
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* For phones */
+  @media only screen and (max-width: 480px) {
+    .foocol {
+      width: 100%;
+    }
+  }
+  /* Set background color and padding for navbar */
+.navbar {
+    background-color: #ffffff; /* Change to desired background color */
+    padding: 10px 0; /* Adjust padding as needed */
+  }
+  
+  /* Style navbar brand (logo) */
+  .navbar-brand img {
+    max-width: 150px; /* Adjust maximum width as needed */
+    height: auto;
+  }
+  
+  /* Style navbar toggler icon */
+  .navbar-toggler-icon {
+    background-color: #000000; /* Change to desired color */
+  }
+  
+  /* Style navbar links */
+  .navbar-nav .nav-link {
+    color: #000000; /* Change to desired color */
+    font-weight: bold; /* Add font weight as needed */
+  }
+  
+  /* Style active navbar link */
+  .navbar-nav .nav-link.active {
+    color: #007bff; /* Change to desired color */
+  }
+  
+  /* Style dropdown menu */
+  .dropdown-menu {
+    background-color: #ffffff; /* Change to desired background color */
+  }
+  
+  /* Style dropdown menu items */
+  .dropdown-menu .dropdown-item {
+    color: #000000; /* Change to desired color */
+  }
+  
+  /* Style dropdown menu divider */
+  .dropdown-divider {
+    border-top: 1px solid #cccccc; /* Change to desired color */
+  }
+  

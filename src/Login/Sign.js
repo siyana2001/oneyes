@@ -2,6 +2,8 @@ import axios from "axios";
 import React from "react";
 import './Sign.css'; 
 import 'bootstrap/dist/css/bootstrap.min.css'; 
+import intern from '../Login/internshala.png'
+
 
 export function Sign(){
     function insert(event){
@@ -48,49 +50,50 @@ export function Sign(){
     }
     return(
         <>
-         <h2 className="text-center text-dark    mb-4">Register to shine in future</h2>
-      <div className="container mt-1">
-      <div className="row justify-content-center">
-        <div className="col-md-6">
-     
-        <form onSubmit={insert}>
-          <div className="mb-3">
-            <label htmlFor="name" className="form-label">
-              Name
-            </label>
-            <input type="text" className="form-control" id="name" placeholder="Enter the Name" />
-          </div>
-
-          <div className="mb-3">
-            <label htmlFor="category" className="form-label">
-              Category
-            </label>
-            <input type="text" className="form-control" id="category" placeholder="Admin or student" />
-          </div>
-
-
-          <div className="mb-3">
-            <label htmlFor="email" className="form-label">
-              Email
-            </label>
-            <input type="email" className="form-control" id="email" placeholder="Enter the email" />
-          </div>
-
-          <div className="mb-3">
-            <label htmlFor="password" className="form-label">
-              Password
-            </label>
-            <input type="password" className="form-control" id="password" placeholder="Enter the Password" />
-          </div>
-
-
-          <button className="btn btn-primary" type="submit">
-            Submit
-          </button>
-        </form>
+         <div className="container mt-1">
+  <div className="row justify-content-center">
+    <div className="col-md-6">
+      <div className="text-center">
+        <img src={intern} alt="Intern" style={{ width: '250px', height: '150px', display: 'block', margin: 'auto' }} />
       </div>
-      </div>
-      </div>
+      <h2 className="text-center text-dark mb-4">Register to shine in future</h2>
+      <form onSubmit={insert}>
+        <div className="mb-3">
+          <label htmlFor="name" className="form-label">
+            Name
+          </label>
+          <input type="text" className="form-control" id="name" placeholder="Enter the Name" />
+        </div>
+
+        <div className="mb-3">
+          <label htmlFor="category" className="form-label">
+            Category
+          </label>
+          <input type="text" className="form-control" id="category" placeholder="Admin or student" />
+        </div>
+
+        <div className="mb-3">
+          <label htmlFor="email" className="form-label">
+            Email
+          </label>
+          <input type="email" className="form-control" id="email" placeholder="Enter the email" />
+        </div>
+
+        <div className="mb-3">
+          <label htmlFor="password" className="form-label">
+            Password
+          </label>
+          <input type="password" className="form-control" id="password" placeholder="Enter the Password" />
+        </div>
+
+        <button className="btn btn-primary" type="submit">
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
 
     </>
         
